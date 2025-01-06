@@ -5,7 +5,7 @@ function HelloMessage(props)
     return(
         <>
         <h1>Hello {props.name}. Your age is {props.age}</h1>
-<h2>{props.children}</h2>
+<h2>{props.children}</h2> {/*inner content of that component written in index.js will be showed here if it is present*/}
         <p>Props stands for properties.<br></br>
         Props are arguments passed into React components.<br></br>
         Props are passed to components via HTML attributes. FReact props are like function arguments in js and attributes in HTML.<br></br>
@@ -21,3 +21,4 @@ function HelloMessage(props)
     );
 }
 export default HelloMessage;
+
