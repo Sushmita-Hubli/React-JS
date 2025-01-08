@@ -29,7 +29,7 @@ root.render(
    <br></br><br></br>
    <b>componentDidUpdate()--></b>
    <p>
-    This method is invoked right after updating occurs.<br></br>This method is not called for the initial render.<br></br>This method is called after the render is completed in the re-render cycles.<br></br>This method is guaranteed to call only once in a life cycle.You can make Ajax calls in this method.<br></br>This method will not be called if shouldComponentUpdatepdate() returns false.
+    This method is invoked right after updating occurs.<br></br>This method is not called for the initial render.<br></br>This method is called after the render is completed in the re-render cycles.<br></br>This method is guaranteed to call only once in a life cycle.You can make Ajax calls in this method.<br></br>This method will not be called if shouldComponentUpdate() returns false.
    </p>
  </>
 );
