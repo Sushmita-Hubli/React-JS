@@ -9,7 +9,7 @@ import Student1 from './Student1';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <h1>List and Keys</h1>
+    <h1>List and Keys </h1>
     <br></br>
     <p><b>If we use List without keys in React then we come across the following warning: </b><br></br>Each child in an array or iterator should have a unique "key" prop.</p><br></br>
     <h1>Below mwntioned component is the example of rendering List without Keys</h1>
