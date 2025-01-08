@@ -30,7 +30,7 @@ export default class Person extends Component {
         console.log("shouldComponentUpdate method called...");
         console.log(nextProps);
         console.log(nextState);
-        return true;   //it is necessary to return something if you are writing this method . if you dont write this method, then true will be returned by default
+        return true;   //it is necessary to return something if you are writing this method . if you dont write this method, then true will be returned by default.If this method returns false then the ecxecution of componentDidUpdate and render will be stopped
     }
     
 
