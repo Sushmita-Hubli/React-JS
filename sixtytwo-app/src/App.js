@@ -25,7 +25,7 @@ function App() {
     <br></br>
     React has two features that make it easy to apply code-splitting and lazy loading to React Components: React.lazy() and React.Suspense.<br></br>
     THe React.lazy() function allows you to render a dynamic import as a normal component. It makes it simple to construct components that are loaded dynamically yet rendered as regular components.
-    <br> React.Suspense: A component built with React.lazy() is only loaded when it is required to be displayed.While the lazy component is loading, you should probably show some form of placeholder content, such as loading indication. </br>
+    <br></br> React.Suspense: A component built with React.lazy() is only loaded when it is required to be displayed.While the lazy component is loading, you should probably show some form of placeholder content, such as loading indication. 
     </p>
 
     <br></br>
