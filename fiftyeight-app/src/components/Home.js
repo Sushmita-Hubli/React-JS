@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
        <div className="App">
-            <h1>Dynamic Routes in React Router</h1>
+            <h1>Dynamic Routes in React Router </h1>
             There are two types of routing:<br></br>
             1.Static Routing:Here you need to define all the routes in a centralized location in your application. Then these routes will be imported to the top level of the application before it starts rendering.<br></br>
             2.Dynamic Routing:<br></br>
