@@ -28,6 +28,15 @@ const Read = () => {
         })
 
     }
+
+    function setDataToStorage(id,name,age,email){
+        localStorage.setItem('id',id);
+        localStorage.setItem('name',name);
+        localStorage.setItem('age',age);
+        localStorage.setItem('email',email);
+
+
+    }
   return (
     <>
     <div className="row">
@@ -61,7 +70,7 @@ const Read = () => {
                         <td>{item.e_email}</td>
                         <td>
                             <Link to='/edit'>
-                                <button className='btn btn-primary'>Edit</button>
+                                <button className='btn btn-primary' onClick={()=>setDataToStorage(item.id, item.e_name, item.e_age,item.e_email)}>Edit</button>
                             </Link>
                         </td>
                         <td><button className='btn btn-danger' onClick={()=>{if(window.confirm('Are you sure you want to delete data?')){handleDelete(item.id)}} }>Delete</button></td>
